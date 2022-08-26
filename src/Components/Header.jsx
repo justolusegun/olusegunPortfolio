@@ -28,7 +28,7 @@ const Header = () => {
           </li>
 
           <li >
-            <NavLink  to="/project" exact="true">
+            <NavLink  to="/project" exact="true" >
             <span className='navn'>03.</span> Projects
             </NavLink>
           </li>

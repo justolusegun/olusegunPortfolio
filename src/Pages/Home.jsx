@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import About from './About';
+import Footer from '../Components/Footer';
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
     </ButtonGroup>
     <About/>
 
-
+    <Footer />
     </Container>
   )
 }
