@@ -14,11 +14,9 @@ const Home = () => {
         <LeftButton><a href="#">Let's get in touch!</a></LeftButton>
         <RightButton><a href="#">Download Resume</a></RightButton>
     </ButtonGroup>
-
-    <Responsive>
     <About/>
 
-    </Responsive>
+
     </Container>
   )
 }
@@ -55,12 +53,12 @@ const Color = styled.span`
 const Where = styled.div`
   font-size: 17px;
   font-family: 'Helvetica Neue';
-  font-weight: lighter;
+  // font-weight: smaller;
   margin-bottom: 20px;
 `
 
 const ButtonGroup = styled.div`
-
+  margin-bottom: 200px;
 `
 
 const LeftButton = styled.button`

@@ -63,6 +63,9 @@ const Container = styled.div`
   right: 0;
   z-index: 10000000;
   cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  z-index: 9000000000;
 `
 
 const Responsive = styled.span`
