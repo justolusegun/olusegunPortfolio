@@ -19,7 +19,7 @@ const Loader = () => {
        {
         loading ?
         <LoaderSet>
-          <ClimbingBoxLoader color={"red"} loading={loading} speedMultiplier={1000} size={25} />
+          <ClimbingBoxLoader color={"red"} loading={loading} speedMultiplier={1} size={25} />
         </LoaderSet>
         :
         <Links />

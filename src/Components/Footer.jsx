@@ -11,8 +11,6 @@ const Footer = () => {
 
 export default Footer
 
-const Container = styled.div`
-    padding: 8%;
-  width: 100%;
-  font-family: monospace;
+const Container = styled.div` 
+margin-top: 2000px;
 `

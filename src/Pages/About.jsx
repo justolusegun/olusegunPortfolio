@@ -4,6 +4,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import WebIcon from '@mui/icons-material/Web';
+import LanguageIcon from '@mui/icons-material/Language';
+import AppleIcon from '@mui/icons-material/Apple';
+import AndroidIcon from '@mui/icons-material/Android';
+import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
+import ViewModuleIcon from '@mui/icons-material/ViewModule';
+import { ViewColumn } from '@mui/icons-material';
 
 const About = () => {
   return (
@@ -31,7 +38,36 @@ const About = () => {
     <a className='icon' href="https://www.linkedin.com/in/olusegun-aina-23681921a/" target="_blank"><LinkedInIcon /></a>
     <a className='icon' href="https://www.instagram.com/justolusegun/" target="_blank"><InstagramIcon /></a>
 </Icons>
+<Space></Space>
 
+  <Skills>
+  <SText>Skills</SText>
+   <SkillT> 
+    <SkillBox className='skillbox'><Icons><WebIcon /> <LanguageIcon /></Icons> Web Development</SkillBox>
+    <SkillBox className='skillbox'><Icons><AppleIcon /> <AndroidIcon /></Icons> Mobile App Development</SkillBox>
+    <SkillBox className='skillbox'><Icons><ViewQuiltIcon /> <ViewColumn /></Icons> UI/UX Design</SkillBox>
+    </SkillT>
+  </Skills>
+
+  <Technology>
+  <SText>Technologies</SText>
+  <SText className='small'>The list of technologies i've learnt and worked with.</SText>
+  <TechL>
+    <TechBox className='skillbox'>JavaScript</TechBox>
+    <TechBox className='skillbox'>HTML</TechBox>
+    <TechBox className='skillbox'>CSS</TechBox>
+    <TechBox className='skillbox'>React</TechBox>
+    <TechBox className='skillbox'>Material UI</TechBox>
+    <TechBox className='skillbox'>IOS</TechBox>
+    <TechBox className='skillbox'>Swift</TechBox>
+    <TechBox className='skillbox'>Swift UI</TechBox>
+    <TechBox className='skillbox'>Figma</TechBox>
+    <TechBox className='skillbox'>Firebase</TechBox>
+    <TechBox className='skillbox'>Python</TechBox>
+    <TechBox className='skillbox'>Android</TechBox>
+  </TechL>
+  </Technology>
+  
 
 </AboutContainer>
     </Container>
@@ -101,4 +137,51 @@ const Space = styled.div`
 
 const Icons = styled.div`
   margin: 10px;
+`
+
+const Skills = styled.div`
+  margin-bottom: 100px;
+`
+const SkillT = styled.div`
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+`
+
+const SkillBox = styled.div`
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 50px;
+  font-family: monospace;
+  font-size: 16px;
+  border-radius: 5px;
+  @media (max-width: 1059px){
+    width: 100%;
+  }
+`
+
+const Technology = styled.div`
+  
+`
+
+const TechL = styled.div`
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+`
+
+const TechBox = styled.div`
+  border-radius: 5px;
+  height: 70px;
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 12px;
+  @media (max-width: 857px){
+    width: 140px;
+  }
 `
