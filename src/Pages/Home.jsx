@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import About from './About';
 import Footer from '../Components/Footer';
+import DownloadIcon from '@mui/icons-material/Download';
 
 
 const Home = () => {
@@ -12,8 +13,8 @@ const Home = () => {
       <Hello>Front End and Application Developer</Hello>
       <Where>Currently located in Nigeria, I love building <Color>interative</Color>, digital experiences, bringing yours ideas to life </Where>
       <ButtonGroup>
-        <LeftButton><a href="#">Let's get in touch!</a></LeftButton>
-        <RightButton><a href="#">Download Resume</a></RightButton>
+        <LeftButton><a href="mailto:ainayoungg@gmail.com" target="_blank" >Let's get in touch!</a></LeftButton>
+        <RightButton><a href="./assets/OlusegunAina.pdf" download >Download Resume<DownloadIcon style={{marginLeft: "20px", height:"15px", width:"15px"}} /></a></RightButton>
     </ButtonGroup>
     <About/>
 
