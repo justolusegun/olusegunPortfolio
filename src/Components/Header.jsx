@@ -28,13 +28,13 @@ const Header = () => {
           </li>
 
           <li >
-            <NavLink  to="/project" exact="false" >
+            <NavLink  to="/" exact="true" >
             <span className='navn'>03.</span> Projects
             </NavLink>
           </li>
 
           <li >
-            <NavLink  to="/contact" exact="true">
+            <NavLink  to="/" exact="true">
             <span className='navn'>04.</span> Contact
             </NavLink>
           </li>

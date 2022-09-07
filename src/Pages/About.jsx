@@ -9,7 +9,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 import AppleIcon from '@mui/icons-material/Apple';
 import AndroidIcon from '@mui/icons-material/Android';
 import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
-import ViewModuleIcon from '@mui/icons-material/ViewModule';
+// import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import { ViewColumn } from '@mui/icons-material';
 
 const About = () => {
@@ -60,7 +60,7 @@ const About = () => {
     <TechBox className='skillbox'>Material UI</TechBox>
     <TechBox className='skillbox'>IOS</TechBox>
     <TechBox className='skillbox'>Swift</TechBox>
-    <TechBox className='skillbox'>Swift UI</TechBox>
+    <TechBox className='skillbox'>C-Sharp</TechBox>
     <TechBox className='skillbox'>Figma</TechBox>
     <TechBox className='skillbox'>Firebase</TechBox>
     <TechBox className='skillbox'>Python</TechBox>

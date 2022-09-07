@@ -10,11 +10,11 @@ const Home = () => {
     <Container>
       <Hello>Hello, 👋🏾</Hello>
       <Hello>I am <Color>Olusegun</Color>,</Hello>
-      <Hello>Front End and Application Developer</Hello>
+      <Hello>Software Engineer</Hello>
       <Where>Currently located in Nigeria, I love building <Color>interative</Color>, digital experiences, bringing yours ideas to life </Where>
       <ButtonGroup>
         <LeftButton><a href="mailto:ainayoungg@gmail.com" target="_blank" >Let's get in touch!</a></LeftButton>
-        <RightButton><a href="./assets/OlusegunAina.pdf" download >Download Resume<DownloadIcon style={{marginLeft: "20px", height:"15px", width:"15px"}} /></a></RightButton>
+        <RightButton><a href="./assets/Olusegun.pdf" download >Download Resume<DownloadIcon style={{marginLeft: "20px", height:"15px", width:"15px"}} /></a></RightButton>
     </ButtonGroup>
     <About/>
 
