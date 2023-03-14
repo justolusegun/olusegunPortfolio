@@ -1,10 +1,9 @@
-import './App.css';
-import Loader from './Components/Loader';
+import Loader from "./Components/Loader";
 
 function App() {
   return (
     <div className="App">
-     <Loader />
+      <Loader />
     </div>
   );
 }
